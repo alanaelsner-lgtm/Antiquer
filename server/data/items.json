@@ -1,0 +1,128 @@
+[
+  {
+    "id": "teapot",
+    "name": "Old Teapot",
+    "description": ["This is an old teapot.", "It has pretty blue flowers on it.", "Someone loved it very much."],
+    "trueValue": 35,
+    "vendorPrice": 20,
+    "category": "kitchen",
+    "type": "good_deal"
+  },
+  {
+    "id": "toy_car",
+    "name": "Toy Car",
+    "description": ["This is a little toy car.", "It is red and shiny.", "Very old but still fun!"],
+    "trueValue": 25,
+    "vendorPrice": 15,
+    "category": "toy",
+    "type": "good_deal"
+  },
+  {
+    "id": "old_book",
+    "name": "Old Book",
+    "description": ["This is a very old book.", "The cover is made of leather.", "It smells like history!"],
+    "trueValue": 18,
+    "vendorPrice": 10,
+    "category": "books",
+    "type": "good_deal"
+  },
+  {
+    "id": "shiny_vase",
+    "name": "Shiny Vase",
+    "description": ["This vase is tall and shiny.", "It has pretty red roses on it.", "Very fancy!"],
+    "trueValue": 50,
+    "vendorPrice": 30,
+    "category": "decor",
+    "type": "good_deal"
+  },
+  {
+    "id": "tin_robot",
+    "name": "Tin Robot",
+    "description": ["This is a little tin robot.", "It is silver and very old.", "Winds up with a key!"],
+    "trueValue": 40,
+    "vendorPrice": 25,
+    "category": "toy",
+    "type": "good_deal"
+  },
+  {
+    "id": "doll",
+    "name": "Old Doll",
+    "description": ["This is a cloth doll.", "She has a painted face.", "She looks very happy!"],
+    "trueValue": 30,
+    "vendorPrice": 18,
+    "category": "toy",
+    "type": "good_deal"
+  },
+  {
+    "id": "gold_watch",
+    "name": "Gold Watch",
+    "description": ["This watch is shiny gold.", "It has a pretty face.", "But is it really gold?"],
+    "trueValue": 30,
+    "vendorPrice": 45,
+    "category": "jewelry",
+    "type": "overpay_trap"
+  },
+  {
+    "id": "fancy_lamp",
+    "name": "Fancy Lamp",
+    "description": ["This lamp looks very fancy.", "It has butterflies on the shade.", "Pretty but old!"],
+    "trueValue": 28,
+    "vendorPrice": 40,
+    "category": "decor",
+    "type": "overpay_trap"
+  },
+  {
+    "id": "big_mirror",
+    "name": "Big Mirror",
+    "description": ["This mirror is very big.", "The frame is gold colored.", "The glass is a little cloudy."],
+    "trueValue": 22,
+    "vendorPrice": 35,
+    "category": "decor",
+    "type": "overpay_trap"
+  },
+  {
+    "id": "cracked_mug",
+    "name": "Cracked Mug",
+    "description": ["This mug has a big crack in it.", "It cannot hold any tea.", "Hmm."],
+    "trueValue": 0,
+    "vendorPrice": 12,
+    "category": "junk",
+    "type": "junk"
+  },
+  {
+    "id": "torn_hat",
+    "name": "Torn Hat",
+    "description": ["This old hat is torn.", "Nobody wants to wear it.", "It is very sad."],
+    "trueValue": 0,
+    "vendorPrice": 8,
+    "category": "junk",
+    "type": "junk"
+  },
+  {
+    "id": "rusty_key",
+    "name": "Rusty Key",
+    "description": ["A big rusty key.", "Nobody knows what it opens.", "A mystery!"],
+    "trueValue": 0,
+    "vendorPrice": 10,
+    "category": "junk",
+    "type": "junk"
+  },
+  {
+    "id": "bunny_vest",
+    "name": "Bunny with Vest",
+    "description": ["A soft stuffed bunny with floppy ears.", "It's wearing a cozy red knit vest.", "And a little checkered bow tie!", "This bunny looks very well loved."],
+    "trueValue": 40,
+    "vendorPrice": 22,
+    "category": "toy",
+    "type": "good_deal"
+  },
+  {
+    "id": "bunny_no_vest",
+    "name": "Plain Bunny",
+    "description": ["A soft stuffed bunny with floppy ears.", "Just a plain bunny — no vest, no bow.", "Still cute, but missing something."],
+    "trueValue": 12,
+    "vendorPrice": 14,
+    "category": "toy",
+    "type": "overpay_trap"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "vases_gold_rim",
+    "type": "vases",
+    "owner": "nana",
+    "rewardMultiplier": 4,
+    "description": ["I have five vases.", "They all share one thing.", "Can you find what it is?", "Then bring me one like them!"],
+    "trait": "gold rim",
+    "shownVases": [
+      { "color": "blue", "trait": "gold rim", "flowers": 2 },
+      { "color": "green", "trait": "gold rim", "flowers": 5 },
+      { "color": "pink", "trait": "gold rim", "flowers": 1 },
+      { "color": "white", "trait": "gold rim", "flowers": 3 },
+      { "color": "yellow", "trait": "gold rim", "flowers": 4 }
+    ],
+    "answerItemId": "shiny_vase",
+    "wrongItemIds": ["teapot", "fancy_lamp", "big_mirror"]
+  },
+  {
+    "id": "set_dolls",
+    "type": "set",
+    "owner": "mommy",
+    "rewardMultiplier": 3,
+    "description": ["I have a set of dolls.", "Big, medium, small... and one is missing!", "Find the missing doll for me!"],
+    "answerItemId": "doll",
+    "wrongItemIds": ["tin_robot", "toy_car", "old_book"]
+  },
+  {
+    "id": "odd_one_out_toys",
+    "type": "odd_one_out",
+    "owner": "daddy",
+    "rewardMultiplier": 2,
+    "description": ["Look at these things.", "Most belong together.", "One does NOT belong.", "Bring me the odd one out!"],
+    "groupItems": ["toy_car", "tin_robot", "doll", "old_book", "toy_car"],
+    "answerItemId": "old_book",
+    "wrongItemIds": ["toy_car", "tin_robot", "doll"]
+  },
+  {
+    "id": "memory_watch",
+    "type": "memory",
+    "owner": "jan",
+    "rewardMultiplier": 3,
+    "description": ["Look closely at this item.", "I will hide it.", "Then find it at the market!"],
+    "shownItemId": "gold_watch",
+    "answerItemId": "gold_watch",
+    "wrongItemIds": ["fancy_lamp", "shiny_vase", "big_mirror"]
+  },
+  {
+    "id": "memory_robot",
+    "type": "memory",
+    "owner": "jan",
+    "rewardMultiplier": 3,
+    "description": ["Take a good look!", "I will hide it.", "Now go find one like it!"],
+    "shownItemId": "tin_robot",
+    "answerItemId": "tin_robot",
+    "wrongItemIds": ["toy_car", "doll", "old_book"]
+  },
+  {
+    "id": "odd_one_out_kitchen",
+    "type": "odd_one_out",
+    "owner": "daddy",
+    "rewardMultiplier": 2,
+    "description": ["These things are grouped together.", "But one does not belong!", "Which one is the odd one out?"],
+    "groupItems": ["teapot", "cracked_mug", "tin_robot", "old_book"],
+    "answerItemId": "tin_robot",
+    "wrongItemIds": ["teapot", "cracked_mug", "old_book"]
+  }
+]
