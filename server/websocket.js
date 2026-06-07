@@ -1,10 +1,12 @@
 const { createClient } = require('@supabase/supabase-js');
+const ws = require('ws');
 const items = require('./data/items.json');
 const puzzles = require('./data/puzzles.json');
 
 const supabase = createClient(
   process.env.SUPABASE_URL,
-  process.env.SUPABASE_ANON_KEY
+  process.env.SUPABASE_ANON_KEY,
+  { realtime: { transport: ws } }
 );
 
 const rooms = {};
