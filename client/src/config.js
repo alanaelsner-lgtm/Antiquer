@@ -1,2 +1,2 @@
-export const API_URL = 'http://localhost:3001';
-export const WS_URL = 'ws://localhost:3001';
+export const API_URL = 'https://antiquer-production-cd24.up.railway.app';
+export const WS_URL = 'wss://antiquer-production-cd24.up.railway.app';
